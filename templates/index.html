@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>California Housing Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>California Housing Prediction</h2>
+        <input type="number" id="MedInc" placeholder="Median Income">
+        <input type="number" id="HouseAge" placeholder="House Age">
+        <input type="number" id="AveRooms" placeholder="Average Rooms">
+        <input type="number" id="Population" placeholder="Population">
+        <input type="number" id="AveOccup" placeholder="Average Occupancy">
+        <input type="number" id="Latitude" placeholder="Latitude">
+
+        <button onclick="predict()">Predict</button>
+        <div class="result" id="predictionResult"></div>
+
+        <h3>Or Upload CSV File:</h3>
+        <input type="file" id="csvFile">
+        <button onclick="predictFile()">Predict CSV</button>
+        <div class="result" id="fileResult"></div>
+        <div class="table-container">
+    
+</div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
