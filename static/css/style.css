@@ -11,7 +11,7 @@ h2, h3 {
 
 .container {
     
-    max-width: auto;
+    max-width: 750px;
     margin: auto;
     background: #fff;
     padding: 30px;
